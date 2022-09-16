@@ -2,28 +2,20 @@
 public class Main {
 
 	public static void main(String[] args) {
-	
-		char grade='A';
+		int sayi1=20;
+		int sayi2=30;
+		int sayi3=26;
 		
-		switch (grade) {
-		case 'A':
-			System.out.println("Mukemmel Gectiniz!!");
-			break;
-		case'B':
-			System.out.println("Cok Guzel Gectiniz");
-			break;
-		case 'C':
-			System.out.println("iyi Gectiniz!!");
-			break;
-		case 'D':
-			System.out.println("Dusuk Not Aldiniz");
-			break;
-		case'F':
-			System.out.println("Malesef Kaldiniz!!");
-			break;
-			default:
-				System.out.println("Geçersiz Not Girdiniz!!");
+		int enButukSayi=sayi1;
+		
+	  if(enButukSayi<sayi2) {
+		enButukSayi=sayi2;
+	  }
+		
+		if(enButukSayi<sayi3) {
+			enButukSayi=sayi3;
 		}
+		System.out.println("en buyuk ="+enButukSayi);
 
 	}
 
